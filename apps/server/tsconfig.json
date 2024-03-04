@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"esModuleInterop": true,
+		"strict": true,
+		"resolveJsonModule": true,
+		"removeComments": true,
+		"newLine": "lf",
+		"noUnusedLocals": true,
+		"noFallthroughCasesInSwitch": true,
+		"allowSyntheticDefaultImports": true,
+		"isolatedModules": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+		"lib": ["ESNext"],
+		"types": ["vite/client", "node"]
+	}
+}

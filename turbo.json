@@ -1,0 +1,21 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"globalDotEnv": [".env"],
+
+	"pipeline": {
+		"build": {
+			"dependsOn": ["^build"],
+			"outputs": [".svelte-kit/**", ".vercel/**"]
+		},
+		"start": {
+			"dependsOn": ["build"],
+			"cache": false,
+			"persistent": true
+		},
+		"lint": {},
+		"dev": {
+			"cache": false,
+			"persistent": true
+		}
+	}
+}
